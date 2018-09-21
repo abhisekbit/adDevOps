@@ -10,6 +10,7 @@ namespace adDevOps.Controllers
     {
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.TraceInformation("Information");
             return View();
         }
 
